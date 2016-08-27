@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RealEstateDBModelStoreContainer" CdmEntityContainer="RealEstateDBEntities">
+    <EntitySetMapping Name="properties">
+      <EntityTypeMapping TypeName="RealEstateDBModel.property">
+        <MappingFragment StoreEntitySet="property">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="beds" ColumnName="beds" />
+          <ScalarProperty Name="sqft" ColumnName="sqft" />
+          <ScalarProperty Name="lot_size" ColumnName="lot_size" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
